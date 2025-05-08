@@ -1,9 +1,10 @@
 # credit-card-fraud-detection
+• Collected a real-world credit card transaction dataset from the web and performed extensive data cleaning and preprocessing to prepare for analysis.
 
+• Conducted initial data assessment and Exploratory Data Analysis (EDA) to identify trends, anomalies, and key patterns in fraudulent vs. legitimate transactions.
 
-• The dataset is collected from web.
-• The data was cleaned and processed and analysed before EDA.
-• Created the logistic regression model with accuracy 95%
-• Converted imbalanced data into balanced data using over sampling technique by 
-installing up sampling the lower data.
-• Got 95% accuracy score with balanced data.
+• Built a Logistic Regression model on the original (imbalanced) dataset, achieving an initial accuracy of 95%.
+
+• Applied oversampling techniques (up-sampling the minority class) to address class imbalance and improve model fairness and sensitivity.
+
+• Re-trained the model on the balanced dataset, maintaining a high accuracy score of 95%, with improved performance in fraud detection.
